@@ -27,29 +27,6 @@ class Fruit(BaseModel):
 
 
 db.connect()
-# db.drop_tables([Fruit])
-# db.create_tables([Fruit])
-
-# apple = Fruit(genus="Malus", name="Apple", family="Rosaceae", order="Rosales",
-#               carbohydrate=11.4, protein=0.3, fat=0.4, calories=52, sugar=10.3).save()
-# apricot = Fruit(genus="Prunus", name="Apricot", family="Rosaceae", order="Rosales",
-#                 carbohydrate=3.9, protein=0.5, fat=0.1, calories=15, sugar=3.2).save()
-# banana = Fruit(genus="Musa", name="Banana", family="Musaceae", order="Zingiberales",
-#                carbohydrate=22, protein=1, fat=0.2, calories=96, sugar=17.2).save()
-# blackberry = Fruit(genus="Rubus", name="Blackberry", family="Rosaceae",
-#                    order="Rosales", carbohydrate=9, protein=1.3, fat=0.4, calories=40, sugar=4.5).save()
-# blueberry = Fruit(genus="Fragaria", name="Blueberry", family="Rosaceae",
-#                   order="Rosales", carbohydrate=5.5, protein=0, fat=0.4, calories=29, sugar=5.4).save()
-# cherry = Fruit(genus="Prunus", name="Cherry", family="Rosaceae",
-#                order="None", carbohydrate=12, protein=1, fat=0.3, calories=50, sugar=8).save()
-# fig = Fruit(genus="Ficus", name="Fig", family="Moraceae", order="Rosales",
-#             carbohydrate=19, protein=0.8, fat=0.3, calories=74, sugar=16).save()
-# gooseberry = Fruit(genus="Ribes", name="Gooseberry", family="Grossulariaceae",
-#                    order="Saxifragales", carbohydrate=10, protein=0.9, fat=0.6, calories=44, sugar=0).save()
-# grapes = Fruit(genus="Vitis", name="Grapes", family="Vitaceae", order="Vitales",
-#                carbohydrate=18.1, protein=0.72, fat=0.16, calories=69, sugar=15.48).save()
-# guava = Fruit(genus="Psidium", name="Guava", family="Myrtaceae",
-#               order="Myrtales", carbohydrate=14, protein=2.6, fat=1, calories=68, sugar=9).save()
 
 app = Flask(__name__)
 
